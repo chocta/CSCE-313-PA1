@@ -1,0 +1,52 @@
+bhavana@Bhavanas-MacBook-3 PA-1 % time ./client -f test.bin
+
+File size: 100000000 bytes
+File received and saved as received/test.bin
+Client-side is done and exited
+Server terminated
+./client -f test.bin  0.82s user 2.71s system 22% cpu 15.593 total
+
+bhavana@Bhavanas-MacBook-3 PA-1 % time ./client -f test50.bin
+File size: 52428800 bytes
+File received and saved as received/test50.bin
+Client-side is done and exited
+Server terminated
+./client -f test50.bin  0.50s user 1.53s system 24% cpu 8.139 total
+
+bhavana@Bhavanas-MacBook-3 PA-1 % time ./client -f test5.bin
+File size: 5242880 bytes
+File received and saved as received/test5.bin
+Client-side is done and exited
+Server terminated
+./client -f test5.bin  0.07s user 0.31s system 26% cpu 1.405 total
+
+bhavana@Bhavanas-MacBook-3 PA-1 % time ./client -f test1m.bin
+File size: 1048576 bytes
+File received and saved as received/test1m.bin
+Client-side is done and exited
+Server terminated
+./client -f test1m.bin  0.02s user 0.17s system 35% cpu 0.536 total
+
+
+bhavana@Bhavanas-MacBook-3 PA-1 % time ./client -f bigfile.bin
+File size: 104857600 bytes
+File received and saved as received/bigfile.bin
+Client-side is done and exited
+Server terminated
+./client -f bigfile.bin  0.94s user 2.94s system 24% cpu 15.552 total
+
+bhavana@Bhavanas-MacBook-3 PA-1 % time ./client -f test25.bin
+File size: 26214400 bytes
+File received and saved as received/test25.bin
+Client-side is done and exited
+Server terminated
+./client -f test25.bin  0.25s user 0.81s system 23% cpu 4.437 total
+
+bhavana@Bhavanas-MacBook-3 PA-1 % time ./client -f test10.bin
+File size: 10485760 bytes
+File received and saved as received/test10.bin
+Client-side is done and exited
+Server terminated
+./client -f test10.bin  0.11s user 0.36s system 23% cpu 1.990 total
+
+
